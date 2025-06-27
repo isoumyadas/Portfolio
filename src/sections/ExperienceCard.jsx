@@ -1,11 +1,10 @@
-import React from "react";
-import Experience from "./Experience";
+import Experience from "../components/Experience";
 
-const CardWithLinks = () => {
+const ExperienceCard = () => {
   return (
     <>
-      <div className="bg-[#222222] w-lg max-h-fit rounded-3xl flex flex-col gap-8 p-5">
-        <p className="text-[#EEEEEE] text-sm">Experience</p>
+      <div className="bg-[#222222] max-h-fit h-full rounded-3xl flex flex-col gap-8 p-5 col-span-2 ">
+        <p className="text-[#EEEEEE] text-base">Experience</p>
         <Experience
           year="Present"
           companyName=""
@@ -23,4 +22,4 @@ const CardWithLinks = () => {
   );
 };
 
-export default CardWithLinks;
+export default ExperienceCard;
