@@ -37,6 +37,7 @@ const Consuming = ({ mainImage, mainTitle, title, subTitle, link }) => {
         }
         // className={mainTitle === "Book" ? "w-15 h-25" : "w-15 h-15"}
         className={checkingConditions()}
+        style={{ objectFit: "cover" }}
       />
       <div>
         <a

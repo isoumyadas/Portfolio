@@ -15,7 +15,7 @@ import ts from "../assets/ts.svg";
 const SkillsCard = () => {
   return (
     // Here you need to rethink when container changes to col-span-2.
-    <div className="bg-[#222222] w-full max-h-fit rounded-3xl flex flex-col gap-8 p-5 col-span-4">
+    <div className="bg-[#222222] w-full max-h-fit rounded-3xl flex flex-col gap-8 p-5 col-span-4 flex-1">
       <div className="flex flex-col gap-4">
         <p className="text-[#EEEEEE] text-base">Skills</p>
         <div className="grid grid-cols-4 gap-4">

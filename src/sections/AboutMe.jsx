@@ -2,7 +2,7 @@ import myProfile from "../assets/images/Image1.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="bg-[#222222] w-xl max-h-fit rounded-3xl flex flex-col gap-8 p-5 col-span-2">
+    <div className="bg-[#222222] w-full max-h-fit rounded-3xl flex flex-col gap-8 p-5 col-span-2 flex-1">
       <div className="flex items-center gap-7 ">
         <img src={myProfile} className="h-full w-22 rounded-full" />
         <div>
@@ -17,8 +17,8 @@ const AboutMe = () => {
           thoughtful, user-focused web applications. I love learning and solving
           problems through code, always aiming to make things that are both
           useful and meaningful. When I’m not coding, you’ll probably find me
-          watching/playing football, sketching or admiring good design, or
-          reading something insightful.
+          watching/playing football, admiring good design, or reading something
+          insightful.
         </p>
       </div>
     </div>

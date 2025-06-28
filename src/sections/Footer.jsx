@@ -12,7 +12,8 @@ const Footer = () => {
     <div className="text-[#EEEEEE] text-sm flex justify-between w-full col-span-4">
       <p>© Soumyaranjan Das</p>
       <p>{time}</p>
-      <button>Dark/Light mode</button>
+      {/* Later work on this */}
+      {/* <button>Dark/Light mode</button> */}
     </div>
   );
 };
