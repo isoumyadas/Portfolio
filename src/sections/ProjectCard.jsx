@@ -13,12 +13,12 @@ const ProjectCard = () => {
     },
     {
       title: "Manage Landing Page using HTML and Tailwind Css",
-      button: "Demo",
+
       src: nike,
     },
     {
       title: "Manage Landing Page using HTML and CSS",
-      button: "Demo",
+
       src: manage,
     },
   ];

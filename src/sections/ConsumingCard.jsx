@@ -10,9 +10,9 @@ import myPlaylist from "../assets/images/Jim-pam.jpeg";
 const ConsumingCard = () => {
   return (
     <div className="bg-[#222222] w-full max-h-fit rounded-3xl flex flex-col gap-8 p-5 col-span-2 flex-1">
+      <p className="text-[#EEEEEE] text-base">Consuming</p>
       <div className="flex flex-col gap-4">
-        <p className="text-[#EEEEEE] text-base">Consuming</p>
-        <div className="flex flex-wrap gap-8">
+        <div className="flex flex-wrap gap-8 consuming-section-grid">
           <Consuming
             mainImage={getEpicShitDone}
             mainTitle="Book"

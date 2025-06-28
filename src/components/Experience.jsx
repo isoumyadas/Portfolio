@@ -1,7 +1,7 @@
 const Experience = ({ year, companyName, jobRole, location }) => {
   return (
     <div className="grid gap-10 grid-cols-4">
-      <p className="text-[#999999] text-sm">
+      <div className="text-[#999999] text-sm">
         {year === "Present" ? (
           <div className="bg-[#42FD55] text-[#09090B] rounded-full w-fit px-2 text-xs">
             {year}
@@ -9,7 +9,7 @@ const Experience = ({ year, companyName, jobRole, location }) => {
         ) : (
           year
         )}
-      </p>
+      </div>
       <div className="leading-7 col-span-3">
         <p className="text-[#EEEEEE]">{jobRole}</p>
 

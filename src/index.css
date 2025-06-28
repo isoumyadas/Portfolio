@@ -4,3 +4,39 @@
 @theme {
   --font-outfit: "Space Grotesk", sans-serif;
 }
+
+@media screen and (max-width: 950px) {
+  .tab-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .consuming-section-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* text-align: center; */
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .tab-skill-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* text-align: center; */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mobile-skill-section-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .mobile-carousel-section {
+    width: 70vmin;
+  }
+}

@@ -4,7 +4,11 @@ const AboutMe = () => {
   return (
     <div className="bg-[#222222] w-full max-h-fit rounded-3xl flex flex-col gap-8 p-5 col-span-2 flex-1">
       <div className="flex items-center gap-7 ">
-        <img src={myProfile} className="h-full w-22 rounded-full" />
+        <img
+          src={myProfile}
+          className="h-full w-22 rounded-full"
+          alt="soumya's-profile"
+        />
         <div>
           <h1 className="text-[#EEEEEE] text-xl">Soumyaranjan Das (Sam) </h1>
           <p className="text-[#999999] text-base">Software Engineer</p>

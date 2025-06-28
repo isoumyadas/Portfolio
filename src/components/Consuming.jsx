@@ -16,7 +16,16 @@ const Consuming = ({ mainImage, mainTitle, title, subTitle, link }) => {
     }
   };
   return (
-    <div className="flex gap-3 items-center">
+    <div
+      className={
+        mainTitle === "Resume" ||
+        mainTitle === "Twitter" ||
+        mainTitle === "Linkedin" ||
+        mainTitle === "Email"
+          ? "gap-1"
+          : "flex gap-4 items-center"
+      }
+    >
       <img
         src={
           mainTitle === "Resume" ||
@@ -49,7 +58,9 @@ const Consuming = ({ mainImage, mainTitle, title, subTitle, link }) => {
           <img
             src={mainTitle === "Reading" ? null : upRightArrow}
             alt={mainTitle === "Reading" ? null : title}
-            className={mainTitle === "Reading" ? null : "w-4"}
+            className={
+              mainTitle === "Reading" ? null : "w-4 hover:animate-bounce"
+            }
           />
         </a>
         <p className="text-[#999999]">{title}</p>
