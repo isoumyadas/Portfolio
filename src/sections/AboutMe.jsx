@@ -6,7 +6,7 @@ const AboutMe = () => {
       <div className="flex items-center gap-7 ">
         <img
           src={myProfile}
-          className="h-full w-22 rounded-full"
+          className="h-full w-25 rounded-xl object-fill"
           alt="soumya's-profile"
         />
         <div>
